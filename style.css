@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+image{ 
+ position: left;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 110vh;
+}
+
+.navbar{
+    position: left;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(139, 107, 46);
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 40px;
+    float: left;
+    padding-top: 30px;
+}
+.menu{ 
+position: left;
+width:600px;
+height: 65px;
+
+}
+
+ul{
+    float: left;
+display: flex;
+justify-content: left;
+align-items: left;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:orange;
+}
+
